@@ -1,5 +1,5 @@
 const cards = [
-  {url:'../src/shop/Rectangle.svg', details:'glass1', price: 100},
+  {url:'../src/events/Rectangle.svg', details:'glass1', price: 100},
   {url:'../src/shop/Rectangle 1.svg', details:'glass2', price: 200},
   {url:'../src/shop/Rectangle-2.svg', details:'glass3', price: 300},
   {url:'../src/shop/Rectangle-3.svg', details:'glass4', price: 400},
