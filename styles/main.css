@@ -3,7 +3,7 @@
 
 @font-face {
 	font-family: 'Main'; 
-	src: url(/src/Brat8.ttf);
+	src: url(../src/Brat8.ttf);
 }
 
 :root {
