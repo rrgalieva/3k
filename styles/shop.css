@@ -1,0 +1,52 @@
+.shop {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.shop__grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  /* grid-template-columns: repeat(3, calc((100vw - 6 * 15px) / 3)); */
+  /* grid-template-rows: repeat(4, calc((100vw - 6 * 15px) / 3)); */
+  /* grid-template: repeat(auto-fill, 30vw) / repeat(3, 30vw) */
+}
+
+.shop__box {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.shop__card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shop__card .card__cover {
+  background-color: #EEEEEE;
+}
+
+.shop__card .card__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop__basket {
+  background-color: white;
+  color: black;
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
+}

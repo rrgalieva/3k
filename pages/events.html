@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Завод</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/events.css">
+  <link rel="stylesheet" href="../styles/resp.css">
+  <script src="https://kit.fontawesome.com/cf4a799f3a.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+  <div id="root">
+    <div class="container">
+      <nav class="nav" id="main-nav">
+        <a class="nav__logo" href="../index.html">Аб-завод</a>
+        <div class="nav__routes">
+          <a href="about.html" class="nav__route">о нас</a>
+          <a href="shop.html" class="nav__route">магазин</a>
+          <a href="#" class="nav__route">мероприятия</a>
+          <a href="https://rrgalieva.github.io/ab-zavod-game/" class="nav__route">мини-игра<i class="fa-solid fa-arrow-right"></i></a>
+          <button class="nav__route" id="menu-open">меню<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </nav>
+    </div>
+    <div id="main-page">
+      <div class="container">
+        <swiper-container class="events" space-between="30" free-mode="true" slides-per-view="auto">
+          <!-- <swiper-slide class="card events__card">
+            <img class="card__cover" src="/src/events/Asset 8@2x.svg"></img>
+            <div class="card__details">
+              <div class="card__title">выбрано</div>
+              <div class="card__info">
+                <div class="card__description">очки однерка</div>
+                <div class="card__price">1000</div>
+              </div>
+            </div>
+          </swiper-slide> -->
+        </swiper-container>
+      </div>
+    </div>
+    </div>
+    <div class="menu" id="menu">
+      <div class="nav__routes_menu">
+        <a href="about.html" class="nav__route_menu">о нас</a>
+        <a href="shop.html" class="nav__route_menu">магазин</a>
+        <a href="#" class="nav__route_menu">мероприятия</a>
+        <a href="https://rrgalieva.github.io/ab-zavod-game/" class="nav__route_menu">мини-игра<i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="router.js" type="module"></script> -->
+  <script src="../scripts/events.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script src="../scripts/menu.js"></script>
+  
+</body>
+</html>
